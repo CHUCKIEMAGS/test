@@ -11,3 +11,7 @@ yhat = 60 * X # prediction initializer
 
 errorSum = np.sum(np.square(y - yhat))
 print(errorSum)
+
+hesDim = 3 #Number of rows/columns in Hessian matrix
+Hess = np.identity(3)
+print(Hess)
